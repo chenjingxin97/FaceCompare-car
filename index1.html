@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>树莓派小车</title>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <style type="text/css">
+        #up {
+            margin-left: 55px;
+            margin-bottom: 3px;
+        }
+        #down {
+            margin-top: 3px;
+            margin-left: 55px;
+        }
+		#data {
+		    float:right;
+		}
+    </style>
+    <script>
+        $(function(){
+            $("button").click(function(){
+                $.post("/cmd",this.id,function(data,status){});
+            });
+        });
+
+    </script>
+</head>
+<body>
+<div>
+    <h1>树莓派小车网页控制端</h1>
+    <h2>制作人:</h2>
+</div>
+
+<div id="data">
+<iframe src="data.html">
+<p>您的浏览器不支持 iframe 标签。</p>
+</iframe>
+
+</div>
+
+
+<div class="container">
+    <h3>运动控制</h3>
+    <div>
+        <button id="up" class="btn btn-lg btn-primary glyphicon glyphicon-circle-arrow-up"></button>
+    </div>
+    <div>
+        <button id='left' class="btn btn-lg btn-primary glyphicon glyphicon-circle-arrow-left"></button>
+        <button id='stop' class="btn btn-lg btn-primary glyphicon glyphicon-stop"></button>
+        <button id='right' class="btn btn-lg btn-primary glyphicon glyphicon-circle-arrow-right"></button>
+    </div>
+    <div>
+        <button id='down' class="btn btn-lg btn-primary glyphicon glyphicon-circle-arrow-down"></button>
+    </div>
+
+    <h3>云台控制</h3>
+    <div>
+        <button id="yun_up" class="btn btn-lg btn-primary glyphicon glyphicon-circle-arrow-up"></button>
+    </div>
+    <div>
+        <button id='yun_left' class="btn btn-lg btn-primary glyphicon glyphicon-circle-arrow-left"></button>
+        <button id='yun_stop' class="btn btn-lg btn-primary glyphicon glyphicon-stop"></button>
+        <button id='yun_right' class="btn btn-lg btn-primary glyphicon glyphicon-circle-arrow-right"></button>
+    </div>
+    <div>
+        <button id='yun_down' class="btn btn-lg btn-primary glyphicon glyphicon-circle-arrow-down"></button>
+    </div>
+
+</div>
+<p>
+<img src="/home/pi/arduino_car/face.jpg" alt="this is the photo">
+</p>
+<div id="data1"><h3>the data is here</h3></div>
+
+</div>
+<button id="btn100" type ="button"> data </button>
+
+
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
