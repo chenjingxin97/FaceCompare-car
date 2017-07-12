@@ -33,11 +33,12 @@ Third, mobify the all souce codes with the image_foken you got just now,and then
 
     $ python camera_conpare.py
 
-## Install
+## Install(Any version is OK)
 * json 
 * time 
 * urllib 
 * urllib2
+* requests
 
 ## Author
 JINGXIN CHEN
