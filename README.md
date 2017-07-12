@@ -19,7 +19,7 @@ Display the result through your own ways.
 * Python3.5
 * Raspberrypi 3B
 * A image of the person that you want to detectc
-* Face++ API and KEY
+* Face++ API and KEY(It is moer importantly is that you should know about how to use Face++ API and more about it.)
 ## usage
 First, create target with Face++.
 
