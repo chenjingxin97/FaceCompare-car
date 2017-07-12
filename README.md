@@ -3,7 +3,17 @@ The target detection based on machine learning//基于机器学习的目标探�
 
 ## Demo
 ![](https://github.com/chenjingxin97/Face-_compare-car/blob/master/Screenshot%20from%202017-07-11%2019-15-19.png)
+
+### upload the image that you want to copare to your created Face++_target.
+
 ![](https://github.com/chenjingxin97/Face-_compare-car/blob/master/Screenshot%20from%202017-07-11%2019-16-36.png)
+
+### You will get the json of picture_foken
+
+![](https://github.com/chenjingxin97/Face-_compare-car/blob/master/Screenshot%20from%202017-07-11%2019-16-46.png)
+
+### Display the result through your own ways.
+
 ## Requirements
 * WebCamera
 * Python3.5
