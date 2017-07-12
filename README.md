@@ -29,9 +29,9 @@ Second,get the image_foken of the person from detect.py
 
     $ python detect.py
     
-Third,mobify the souce codes with the image_foken you got just now.
+Third,mobify the all souce codes with the image_foken you got just now,and then run camera_compare.py to get the final data.
 
-Last,run camera_compare.py to get the final data.
+
 
     $ python camera_conpare.py
 
