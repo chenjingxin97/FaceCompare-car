@@ -3,7 +3,7 @@ The target detection based on machine learning//基于机器学习的目标探�
 
 ## Demo
 ![](https://github.com/chenjingxin97/Face-_compare-car/blob/master/Screenshot%20from%202017-07-11%2019-15-19.png)
-
+![](https://github.com/chenjingxin97/Face-_compare-car/blob/master/Screenshot%20from%202017-07-11%2019-16-36.png)
 ## Requirements
 * WebCamera
 * Python3.5
