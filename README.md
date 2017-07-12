@@ -9,7 +9,7 @@ The target detection based on machine learning//基于机器学习的目标探�
 * Python3.5
 * Raspberrypi 3B
 * A image of the person that you want to detectc //一张你所需探测目标的图片
-
+* Face++
 ## usage
 First, create target with Face++.
 
