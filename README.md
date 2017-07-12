@@ -2,7 +2,7 @@
 The target detection based on machine learning//基于机器学习的目标探测器
 
 ## Demo
-
+![](https://github.com/chenjingxin97/Face-_compare-car/blob/master/Screenshot%20from%202017-07-11%2019-15-19.png)
 
 ## Requirements
 * WebCamera
