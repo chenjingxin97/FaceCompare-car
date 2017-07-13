@@ -1,6 +1,9 @@
 # FaceCompare-car
 The target detection based on machine learning.If you like,you could equip it at everywhere.
 
+## The train of thought pd design
+Because the studio needed a monitoring system , l design the car to compare faces.
+
 ## Demo
 ![](https://github.com/chenjingxin97/Face-_compare-car/blob/master/Screenshot%20from%202017-07-11%2019-15-19.png)
 
