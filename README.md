@@ -1,4 +1,4 @@
-# Face-_compare-car
+# FaceCompare-car
 The target detection based on machine learning.If you like,you could equip it at everywhere.
 
 ## Demo
